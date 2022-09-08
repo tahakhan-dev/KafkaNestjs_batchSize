@@ -1,0 +1,67 @@
+// 1002500256
+// FT/IBFT/POS/UBP etc.
+// 15000
+// PKR
+// 60052
+// 3002
+// "For rent"
+// "1002123365435413"
+// "Test Account"
+// "1002123365435413"
+// "Test Account"
+// "4220101101010"
+// cr/dr
+// "2021-11-29T09:18:40.848Z"
+// "1001002"
+// IRIS/MiSys/CTL etc
+// 15000
+// 100
+// USD
+// 175.6
+
+[
+    {
+        "id": 1002500256,
+        "type": "FT",
+        "amount": 15000,
+        "txn_currency": "PKR",
+        "mcc": 60052,
+        "pop_code": 3002,
+        "description": "For rent",
+        "from_acccount_number": "1002123365435413",
+        "from_account_title": "Test Account",
+        "to_account_number": "1002123365435413",
+        "to_account_title": "Test Account",
+        "consumer_id": "4220101101010",
+        "nature": "dr",
+        "datetime": "2021-11-29T09:18:40.848Z",
+        "ref_no": "1001002",
+        "source": "IRIS",
+        "running_balance": 15000,
+        "fc_amount": "null",
+        "fc_currency": "null",
+        "fc_rate": "null",
+    },
+    {
+        "id": 1002500256,
+        "type": "IBFT",
+        "amount": 25000,
+        "txn_currency": "PKR",
+        "mcc": 60052,
+        "pop_code": 3002,
+        "description": "For rent",
+        "from_acccount_number": "1002123365435413",
+        "from_account_title": "Test Account",
+        "to_account_number": "1002123365435413",
+        "to_account_title": "Test Account",
+        "consumer_id": "4220101101010",
+        "nature": "dr",
+        "datetime": "2021-11-29T09:18:40.848Z",
+        "ref_no": "1001002",
+        "source": "MiSys",
+        "running_balance": 15000,
+        "fc_amount": "null",
+        "fc_currency": "null",
+        "fc_rate": "null",
+    },
+]

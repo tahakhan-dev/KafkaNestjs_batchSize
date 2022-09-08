@@ -1,0 +1,25 @@
+
+ENV = DEVELOPMENT
+PORT = 3012
+DB_TYPE = mssql
+MSSQL_USER = sa
+MSSQL_PASSWORD = 4Fay575b
+MSSQL_DB = hk_db_dev
+MSSQL_DB_HOST = 35.192.139.102
+MSSQL_DB_PORT = 1433
+DB_DIALECT =
+DB_CHARSET =
+DB_COLLATE =
+
+KAFKA_NAME = TransactionKafa
+KAFKA_CLIENT_ID = test-client7
+BROKER_IP = 104.198.216.72:9093
+CONSUMER_GROUP_ID = test-consumer-group7
+KAFKA_SSL_ENABLED = 1
+KAFKA_SSL_KEY_FILE = D:/newcertificates/ca-key
+KAFKA_SSL_CERT_FILE = D:/newcertificates/ca-cert
+KAFKA_SSL_CA_FILE = D:/newcertificates/kafka-cert_3-signed
+KAFKA_SSL_PASSPHRASE = 3E6s7Vi83fQ@
+KAFKA_TOPIC = data-lake-categorization
+KAFKA_TOPIC1 = datalake-account
+APP_PORT=5000
